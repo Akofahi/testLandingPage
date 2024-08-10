@@ -93,6 +93,11 @@ a {
 .thirdBlock p{
     text-align: right;
 }
+div h2{
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+}
 
 .fbContainer{
     gap: 50px;
