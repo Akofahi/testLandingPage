@@ -1,4 +1,126 @@
-div {
+@font-face {
+    font-family: "Hero";
+    src: url(./TTF/Hero-Regular.ttf);
+}
+@font-face {
+    font-family: "HeroBold";
+    src: url(./TTF/Hero-Bold.ttf);
+}
+
+*{
+    font-family: "Hero";
+}
+
+button{
+    border-radius: 5px;
+    background-color: #3882F6;
+    width: 7em;
+    height: 3em;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #1f2937;
+    font-family: "Hero";
+
+}
+header h3{
+font-size: 24px;
+color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+  }
+  
+  a:active {
+    outline: none;
+  }
+
+.firstBlock, .fourthBlock, .sbImgs, .fbContainer, .thirdBlock {
   display: flex;
   flex-direction: row;  
+  align-items: center;
+  vertical-align: middle;
+  justify-content: space-around;
 }
+
+.firstBlock{
+    background-color:#1f2937 ;
+    padding-bottom: 2em;
+}
+
+.firstBlock h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-family: "HeroBold";
+    font-weight: bolder;
+}
+.firstBlock button{
+    background-color: #3882F6;
+}
+.firstBlock p{
+    font-size: 18px;
+    font-family: "Hero";
+    color: #e5e7eb;
+}
+
+.firstBlock button{
+    border-color: #3882F6;
+}
+.secondBlock{
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.secondBlock h2{
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.thirdBlock{
+    background-color: #e5e7eb;
+    padding: 1em 0 1em 0;
+}
+
+.thirdBlock p{
+    text-align: right;
+}
+
+.fbContainer{
+    gap: 50px;
+    background-color: #3882F6;
+    padding: 2em;
+    margin: 5em 0em 5em 0;
+    color: #F9FAF8;
+    border-radius: 5px;
+}
+
+.fbContainer button{
+    border-color: #F9FAF8;
+}
+
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    vertical-align: middle;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+footer{
+    background-color: #1f2937;
+    text-align: center;
+    padding: 1em;
+    color: #F9FAF8;
+}
+
