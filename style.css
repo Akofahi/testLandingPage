@@ -9,6 +9,7 @@
 
 *{
     font-family: "Hero";
+
 }
 
 button{
@@ -93,7 +94,11 @@ a {
 .thirdBlock p{
     text-align: right;
 }
-div h2{
+.tbContainer{
+    width: 50%;
+}
+
+.tbContainer h2{
     font-size: 36px;
     font-weight: lighter;
     color: #1f2937;
@@ -111,7 +116,6 @@ div h2{
 .fbContainer button{
     border-color: #F9FAF8;
 }
-
 
 .navigation{
     display: flex;
